@@ -15,22 +15,26 @@ body {
 }
 .btn {
   display: inline-block;
-  background: rgb(247, 247, 247);
+  background: white;
+  color: rgb(65, 65, 65);
   font-size: 1.5rem;
-  padding: 0.75rem;
+  padding: 0.5rem;
   border-radius: 10%;
   box-shadow: 2px 3px rgba(44, 44, 44, 0.623);
   outline: none;
+  cursor: pointer;
 }
 .prevBtn {
   position: absolute;
   top: 50%;
   left: 0;
+  transform: translate(-50%,-50%);
 }
 .nextBtn {
   position: absolute;
   top: 50%;
   right: 0;
+  transform: translate(50%,-50%);
 }
 .btn:active {
   background: grey;
@@ -38,4 +42,6 @@ body {
 }
 .btn:hover {
   background: rgb(43, 43, 43);
+  color: rgb(255, 255, 255);
+  border: 0px solid rgb(39, 39, 39);
 }
