@@ -46,8 +46,8 @@ class Gallery {
 
 // Use like:
 new Gallery("#gallery-one", [
-  {alt: "caption 1", src: "img/image-0.jpg"},
-  {alt: "caption 2!", src: "img/image-1.jpg"},
-  {alt: "caption 3?", src: "img/image-2.jpg"},
-  {alt: "caption 4?", src: "img/image-4.jpg"},
+  {alt: "City at night", src: "img/image-0.jpg"},
+  {alt: "The newest tech craze!", src: "img/image-1.jpg"},
+  {alt: "Adorable kitten", src: "img/image-2.jpg"},
+  {alt: "Best beaches to walk on", src: "img/image-4.jpg"},
 ]);
